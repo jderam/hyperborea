@@ -1,17 +1,17 @@
-export const HB3E = {};
+export const HYPERBOREA = {};
 
-HB3E.saveTypes = {
-    "death": HB3E.save.death,
-    "transformation": HB3E.save.transformation,
-    "device": HB3E.save.device,
-    "avoidance": HB3E.save.avoidance,
-    "sorcery": HB3E.save.sorcery
+HYPERBOREA.saveTypes = {
+    "death": HYPERBOREA.save.death,
+    "transformation": HYPERBOREA.save.transformation,
+    "device": HYPERBOREA.save.device,
+    "avoidance": HYPERBOREA.save.avoidance,
+    "sorcery": HYPERBOREA.save.sorcery
 }
 
-HB3E.classes = {
-    "fighter": HB3E.charClasses.fighter,
-    "magician": HB3E.charClasses.magician,
-    "cleric": HB3E.charClasses.cleric,
-    "thief": HB3E.charClasses.thief
+HYPERBOREA.classes = {
+    "fighter": HYPERBOREA.charClasses.fighter,
+    "magician": HYPERBOREA.charClasses.magician,
+    "cleric": HYPERBOREA.charClasses.cleric,
+    "thief": HYPERBOREA.charClasses.thief
 }
 

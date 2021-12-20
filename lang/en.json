@@ -1,17 +1,26 @@
 {
-    "HB3E": {
-        "save": {
-            "death": "Death",
-            "transformation": "Transformation",
-            "device": "Device",
-            "avoidance": "Avoidance",
-            "sorcery": "Sorcery"
-        },
-        "charClass" : {
-            "fighter": "Fighter",
-            "magician": "Magician",
-            "cleric": "Cleric",
-            "thief": "Thief"
-        }
-    }
+    "HYPERBOREA.save.death": "Death",
+    "HYPERBOREA.save.transformation": "Transformation",
+    "HYPERBOREA.save.device": "Device",
+    "HYPERBOREA.save.avoidance": "Avoidance",
+    "HYPERBOREA.save.sorcery": "Sorcery",
+
+    "HYPERBOREA.charClass.fighter": "Fighter",
+    "HYPERBOREA.charClass.magician": "Magician",
+    "HYPERBOREA.charClass.cleric": "Cleric",
+    "HYPERBOREA.charClass.thief": "Thief",
+
+    "HYPERBOREA.attr.str.long": "Strength",
+    "HYPERBOREA.attr.str.short": "STR",
+    "HYPERBOREA.attr.dex.long": "Dexterity",
+    "HYPERBOREA.attr.dex.short": "DEX",
+    "HYPERBOREA.attr.con.long": "Constitution",
+    "HYPERBOREA.attr.con.short": "CON",
+    "HYPERBOREA.attr.int.long": "Intelligence",
+    "HYPERBOREA.attr.int.short": "INT",
+    "HYPERBOREA.attr.wis.long": "Wisdom",
+    "HYPERBOREA.attr.wis.short": "WIS",
+    "HYPERBOREA.attr.cha.long": "Charisma",
+    "HYPERBOREA.attr.cha.short": "CHA"
+    
 }

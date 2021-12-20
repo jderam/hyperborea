@@ -1,5 +1,5 @@
 {
-    "name": "hyperborea-3e",
+    "name": "hyperborea",
     "title": "Hyperborea 3E",
     "description": "A system for playing Hyperborea RPG on Foundry",
     "author": "Jeremy Deram",
@@ -8,10 +8,10 @@
     "compatibleCoreVersion": "0.8.9",
     "scripts": [],
     "esmodules": [
-        "hyperborea-3e.js"
+        "hyperborea.js"
     ],
     "styles": [
-        "hyperborea-3e.css"
+        "hyperborea.css"
     ],
     "packs": [],
     "languages": [
