@@ -1,0 +1,26 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64" />
+        <div class="header-fields">
+            <h1>
+                <input name="name" type="text" value="{{item.name}}" placeholder="Name" />
+            </h1>
+            <!-- <div class="resource">
+                <label>Quantity</label>
+                <input type="number" name="data.quantity" value="{{systemData.quantity}}"/>
+            </div>
+            <div class="resource">
+                <label>Weight</label>
+                <input type="number" name="data.weight" value="{{systemData.weight}}"/>
+            </div> -->
+        </div>
+    </header>
+    <div>
+        {{localize hb3a.equipage.cost}}
+        {{localize hb3a.equipage.weight}}
+        {{localize hb3a.equipage.quantity}}
+        <br>
+        {{localize "hb3e.equipage.description"}}
+    </div>
+    
+</form>

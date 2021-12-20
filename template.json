@@ -1,0 +1,121 @@
+{
+    "Actor": {
+        "types": [
+            "pc",
+            "monster"
+        ],
+        "pc": {
+            "name": "",
+            "hp": 0,
+            "ac": 9,
+            "aac": 10,
+            "class": null,
+            "level": 1,
+            "xp": 0,
+            "attr": {
+                "str": 10,
+                "dex": 10,
+                "con": 10,
+                "int": 10,
+                "wis": 10,
+                "cha": 10
+            }
+        },
+        "monster": {
+            "name": "",
+            "num_enc": "",
+            "alignment": "",
+            "size": "M",
+            "movement": 40,
+            "dexterity": 10,
+            "ac": 9,
+            "aac": 10,
+            "hd": 1,
+            "hd_bonus": 0,
+            "attack_rate": "",
+            "damage": "",
+            "saving_throw": 16,
+            "morale": 0,
+            "xp": 0,
+            "treasure": "",
+            "description": ""
+        }
+    },
+    "Item": {
+        "types": [
+            "weapon",
+            "armour",
+            "shield",
+            "spell",
+            "equipage",
+            "ability"
+        ],
+        "templates": {
+            "ItemDescription": {
+                "description": ""
+            }
+        },
+        "weapon": {
+            "name": "",
+            "melee": true,
+            "missile": false,
+            "wc": 0,
+            "damage": "1d8",
+            "range": null,
+            "cost": 0,
+            "weight": 0,
+            "templates": [
+                "ItemDescription"
+            ]
+        },
+        "armour": {
+            "name": "",
+            "ac": 9,
+            "aac": 10,
+            "type": null,
+            "cost": 0,
+            "dr": 0,
+            "weight": 0,
+            "weight_class": null,
+            "mv": 40,
+            "templates": [
+                "ItemDescription"
+            ]
+        },
+        "shield": {
+            "name": "",
+            "cost": 0,
+            "weight": 0,
+            "melee_def_mod": 1,
+            "missile_def_mod": 1,
+            "templates": [
+                "ItemDescription"
+            ]
+        },
+        "spell": {
+            "name": "",
+            "class_level": "",
+            "range": "",
+            "duration": "",
+            "save": "",
+            "templates": [
+                "ItemDescription"
+            ]
+        },
+        "equipage": {
+            "name": "",
+            "cost": 0,
+            "weight": 0,
+            "quantity": 1,
+            "templates": [
+                "ItemDescription"
+            ]
+        },
+        "ability": {
+            "name": "",
+            "templates": [
+                "ItemDescription"
+            ]
+        }
+    }
+}

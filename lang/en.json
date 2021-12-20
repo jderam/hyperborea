@@ -1,0 +1,17 @@
+{
+    "HB3E": {
+        "save": {
+            "death": "Death",
+            "transformation": "Transformation",
+            "device": "Device",
+            "avoidance": "Avoidance",
+            "sorcery": "Sorcery"
+        },
+        "charClass" : {
+            "fighter": "Fighter",
+            "magician": "Magician",
+            "cleric": "Cleric",
+            "thief": "Thief"
+        }
+    }
+}
